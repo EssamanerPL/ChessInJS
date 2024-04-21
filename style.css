@@ -1,0 +1,47 @@
+@font-face {
+    font-family: Chess;
+    src: url(chess.medium.otf);
+}
+
+#board, td, tr {
+    border-collapse: collapse;
+    border: 1px solid black;
+    font-size: 50px;
+    font-family: Chess;
+}
+
+td {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+
+td:hover {
+    cursor: pointer;
+    background-color: rgba(255, 182, 193, 0.512) !important;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+#row0, #letters {
+    background-color: black;
+    color: white;
+    font-size: 50px;
+    font-family: Cambria;
+}
+
+#restart {
+    font-family: Cambria;
+}
+
+.selected {
+    background-color: rgba(255, 182, 193, 0.512) !important;
+}
+
+#button {
+    background-color: rgba(0, 0, 0, 0);
+
+}
